@@ -1,8 +1,6 @@
-/* we can use a single css file to style all the files in our wwebsite */
+/* Here we can set styles for this lab page that we don't want to effect others pages */
 
-/* you can pick your own background colors, text colors, and fonts */
-
-/* we can select an html element tag, in this case "body" will apply to the whole document */
+/* the period in a CSS selector selects an element by class, e.g., class="minor-section" */
 body {
   background-color: #fcb8dc;
 }
@@ -33,4 +31,9 @@ h1 {
   margin-bottom: 10px;
   border: solid 1px #3c0723;
   background-color: #e4d3dc;
+}
+
+.man {
+  margin: 10px;
+  max-width: 100px;
 }
