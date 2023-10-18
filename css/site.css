@@ -31,6 +31,13 @@ h1 {
 .minor-section {
   padding: 10px;
   margin-bottom: 10px;
+  background-color: #e4d3dc;
+  display: flex;
+}
+
+.minor-section2 {
+  padding: 10px;
+  margin-bottom: 10px;
   border: solid 1px #3c0723;
   background-color: #e4d3dc;
 }

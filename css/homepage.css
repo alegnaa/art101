@@ -2,10 +2,15 @@
 
 .toby {
   margin: 10px;
-  max-width: 500px;
+  max-width: 300px;
 }
 
 .man {
   margin: 10px;
   max-width: 100px;
+}
+
+.honorable-mentions {
+  margin: 10px;
+  max-width: 200px;
 }
