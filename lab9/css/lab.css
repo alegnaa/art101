@@ -1,0 +1,85 @@
+/* Here we can set styles for this lab page that we don't want to effect others pages */
+
+/* the period in a CSS selector selects an element by class, e.g., class="minor-section" */
+.challenge {
+  padding: 1px;
+  margin-bottom: 1px;
+  background-color: #f0e5ec;
+}
+
+.problem {
+    padding: 1px;
+    margin-bottom: 1px;
+    background-color: #f0e5ec;
+}
+
+.ref {
+  padding: 1px;
+  margin-bottom: 1px;
+  background-color: #f0e5ec;
+}
+
+.results {
+    padding: 1px;
+    margin-bottom: 1px;
+    background-color: #f0e5ec;
+}
+
+.special {
+  background-color: rgb(193, 166, 225);
+  border: dotted 50px rgb(245, 185, 75);
+  color: rgb(193, 92, 109);
+  font-weight: bold;
+}
+
+.special2 {
+  background-color: rgb(222, 225, 166);
+  border: dotted 50px rgb(245, 103, 75);
+  color: rgb(186, 92, 193);
+  font-weight: bold;
+}
+
+.special3 {
+  background-color: rgb(56, 36, 127);
+  border: dotted 50px rgb(171, 245, 75);
+  color: rgb(193, 92, 92);
+  font-weight: bold;
+}
+
+.special4 {
+  background-color: rgb(127, 36, 77);
+  border: dotted 50px rgb(252, 235, 136);
+  color: rgb(231, 139, 139);
+  font-weight: bold;
+}
+
+.name {
+
+  padding: 1px;
+  margin-bottom: 1px;
+  background-color: #f0e5ec;
+  display: flex;
+}
+
+  body {
+    background-color: #fcb8dc;
+  }
+
+  #content {
+    margin: 10px;
+    padding: 10px;
+    border: solid 1px #3c0723;
+    background-color: #f0e5ec;
+  }
+  
+  h1,h2,h3 {
+    font-family: fantasy;
+  }
+  
+  /* and we can have rules that overlap other rules, both take effect */
+  h1 {
+    letter-spacing: 5px;
+    word-spacing: 5px;
+    font-size: 200%;
+  }
+  
