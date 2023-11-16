@@ -24,5 +24,5 @@ $("#button-ref").click(function(){
 
 $("#button-res").click(function(){
   $(".results").toggleClass("special4");
-  $("#button-res").toggle("go back?");
+  $("#button-res").html("I lied lol");
 });
