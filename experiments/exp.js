@@ -1,6 +1,8 @@
-$(".minor-section3").append("<button id='button'>very cool button</button>");
+// experimenting during class
+// Angela Ambriz
+// 11.15.23
 
-$("#button").click(function(){
-    var name = prompt("hand over your name pls:");
+$("#my-button").click(function(){
+    var name = $("#input").val();
     $('#title').html('hi '+ name);
 });
