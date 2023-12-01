@@ -13,12 +13,21 @@
     background-color: #f0e5ec;
     }
 
-.name {
-  padding: 1px;
-  margin-bottom: 1px;
-  background-color: #f0e5ec;
-  display: flex;
-}
+    .name {
+      position: absolute;
+      top: 210px;
+      right: 80px;
+      width: 450px;
+      /*border: solid 1px black;*/
+      word-wrap: break-word;
+      font-size: 350%;
+      line-height: 90%;
+      font-weight: bold;
+      font-family: "Times New Roman", serif;
+      text-align: center;
+      margin: 20px;
+  }
+  
 
   body {
     background-color: #fcb8dc;
@@ -45,6 +54,6 @@
   .chevy{
     margin: 10px;
     max-width: 300px;
-    display:flex;
+    text-align: center;
     float: right;
   }

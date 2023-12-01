@@ -25,7 +25,8 @@ for(var index=1;index<=200;index++ ) {
   else if (index%7 === 0) {
     $("#output").append("<p>boom</p>");
   } else {
-  number = [...String(index)].join(''); // wesbot helped me with this code
-   $("#output").append(`<p>${number}</P>`); //same "              "
+    number = [...String(index)].join(''); // wesbot helped me with this code
+    $("#output").append(`<p>${number}</P>`); //same "              "
   }
+  console.log("numbers are written");
 }

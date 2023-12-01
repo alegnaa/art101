@@ -8,7 +8,7 @@ function sortUserName () {
   var userName = window.prompt("hi hi! what's your name? i'll try my best to write it out :)");
   console.log("userName =", userName);
 
-  var nameArray = userName.split ('');
+  var nameArray = userName.split('');
   console.log("nameArray =", nameArray);
 
   var nameArraySort = nameArray.sort();
@@ -21,14 +21,10 @@ function sortUserName () {
 
 }
 
-
-document.writeln("here we go! i hope it's spelled right: ",
-  sortUserName(), "</br>");
-
 function main() {
-  console.log("Main function started.");
-  // the code that makes everything happen
+  document.writeln("here we go! i hope it's spelled right: ", sortUserName(), "</br>");
+  var betterName = nameSorted;
+  document.writeln("<div class='name'>" + betterName + "</div>");
 }
 
-// let's get this party started 
 main();
